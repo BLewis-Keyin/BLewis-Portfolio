@@ -9,7 +9,7 @@ function Tools() {
         e.preventDefault();
         setIsLoading(true);
         try {
-            const response = await fetch('https://RedditVideoScaperv-env.eba-vnx8q8n6.us-west-2.elasticbeanstalk.com/process_video', {
+            const response = await fetch('https://rvtool.blcode.net/process_video', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
