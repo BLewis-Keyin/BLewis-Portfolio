@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 
 function Tools() {
+        
+   
     const [url, setUrl] = useState('');
     const [isLoading, setIsLoading] = useState(false);
     const [response, setResponse] = useState(null);
@@ -8,8 +10,9 @@ function Tools() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         setIsLoading(true);
+        const devMode = false //  <-------DEV MODE HERE ! ! SHOULD BE FALSE IN PRODUCTION
         try {
-            const response = await fetch('https://rvtool.blcode.net/process_video', {
+            const response = await fetch(devMode === true ? 'http://localhost:8000/process_video' : 'https://rvtool.blcode.net/process_video', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
