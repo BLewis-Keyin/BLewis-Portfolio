@@ -5,19 +5,20 @@ function Projects() {
     return (
         <section className="projects" id="projects">
             <div className="projects-content">
-                <h2>Projects</h2>
-                <div className="project" href="https://github.com/BLewis-Keyin/Flight-Data-Portal">
+                <h2>Notable Projects</h2>
+                <a href='https://github.com/BLewis-Keyin/Flight-Data-Portal'>
+                    <div className="project" >
                     <h3>Flight Data Portal</h3>
                     <p>
-                        The Flight Data Portal is a web application designed to manage and display flight information. It features user authentication, API endpoints for flight data, and a modular routing system.
+                        The Flight Data Portal is a web application designed to manage and display flight information. It features user authentication, API endpoints for flight data, and a modular routing system
                     </p>
-                </div>
-                <div className="project" href="https://github.com/BLewis-Keyin/RedditVideoScraper">
+                    </div></a>
+                <a href='https://github.com/BLewis-Keyin/RedditVideoScraper'><div className="project" >
                     <h3>Reddit Video Scraper</h3>
                     <p>
-                        A python flask application that uses ffmpeg and the reddit API to serve mp4 video from a given reddit post URL.
+                        A python flask application that uses ffmpeg and the reddit API to serve mp4 video from a given reddit post URL
                     </p>
-                </div>
+                </div></a>
             </div>
         </section>
     );
