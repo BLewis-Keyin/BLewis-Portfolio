@@ -7,12 +7,11 @@ function AboutMe() {
             <div className="about-me-content">
                 <h2>About Me</h2>
                 <p>
-                    I'm a software engineer with a keen interest in backend development. I enjoy solving complex
-                    problems and making things work.
-
-                    I am talented in making REST api's, working with Java, JavaScript and Python, and work well in agile environments.
-
-                    Currently seeking my first opportunity to break into the tech industry and join an awesome team and contribute to great projects.
+                    As a software engineer specializing in backend development, I possess a strong passion for tackling intricate challenges and ensuring functionality.
+                    
+                    Proficient in crafting REST APIs and adept at utilizing Java, JavaScript, and Python, I thrive within agile frameworks.
+                    
+                    Eager to start my first venture within the tech sector, I am actively seeking to join a dynamic team where I can lend my skills to impactful projects.
                 </p>
             </div>
         </section>
