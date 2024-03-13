@@ -139,6 +139,16 @@ body {
     line-height: 1.6;
 }
 
+.projects a {
+    text-decoration: none;
+}
+
+.projects a, .projects a :visited, .projects a :active {
+    color: inherit;
+    text-decoration: none;
+}
+
+
 
 /* GitHub Repositories*/
 
