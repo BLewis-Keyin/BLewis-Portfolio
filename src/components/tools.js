@@ -10,7 +10,7 @@ function Tools() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         setIsLoading(true);
-        const devMode = false //  <-------DEV MODE HERE ! ! SHOULD BE FALSE IN PRODUCTION
+        const devMode = true //  <-------DEV MODE HERE ! ! SHOULD BE FALSE IN PRODUCTION
         try {
             const response = await fetch(devMode === true ? 'http://localhost:8000/process_video' : 'https://rvtool.blcode.net/process_video', {
                 method: 'POST',
